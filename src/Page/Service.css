@@ -1,0 +1,55 @@
+.revenue-section {
+    background-color: #dfe4ea;  /* You can change this to any color you want */
+  padding: 50px 0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .revenue-content {
+    margin-top: 36px;
+  margin-bottom: -27px;
+    margin-left: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .strategy-card {
+    margin-left: -242px;
+    margin-right: -242px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 320px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    color: #666;
+    font-size: 16px;
+    max-width: 445px;
+    
+  }
+  
+  .strategy-card h3 {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .strategy-card button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: 1px solid #332c2c;;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .health-img {
+    max-width: 350px;
+    border-radius: 8px;
+  }
