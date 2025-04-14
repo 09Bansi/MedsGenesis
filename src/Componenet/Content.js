@@ -178,7 +178,6 @@ const Content = () => {
                         <p style={{ marginTop: '17px', color: 'rgb(170, 159, 159)', fontsize: '15px' }}>
                             Elevate Your Practice’s Financial Health with Our AI-Powered Revenue Cycle Management Solutions.
                         </p>
-                        <span className="learnmore" >Learn More</span>
                     </div>
                 </div>
 

@@ -21,16 +21,6 @@ const Footer = () => {
       </div>
 
       <div className="footer-section">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/faqs">FAQs</a></li>
-          <li><a href="/whitepapers">Whitepapers</a></li>
-          <li><a href="/case-studies">Case Studies</a></li>
-        </ul>
-      </div>
-
-      <div className="footer-section">
         <h4>Connect with Us</h4>
         <ul>
           <li><a href="https://linkedin.com">LinkedIn</a></li>
