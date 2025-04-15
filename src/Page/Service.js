@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from "react"; 
 import { useNavigate } from 'react-router-dom';
 import health from './health.png'; // save your doctor image as doctor.png in /assets
 import doctor from './doctor.png'; // save your doctor image as doctor.png in /assets
