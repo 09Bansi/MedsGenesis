@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import health from './health.png'; // save your doctor image as doctor.png in /assets
 import doctor from './doctor.png'; // save your doctor image as doctor.png in /assets
@@ -7,6 +7,10 @@ import Doctor4 from './Doctor4.png'; // save your doctor image as doctor.png in 
 import './Service.css';
 
 const Service = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top when Services component loads
+      }, []);
+
     const navigate = useNavigate();
 
 

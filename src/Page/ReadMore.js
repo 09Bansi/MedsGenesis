@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
 import health from './health.png'; // Use a different image if needed
 import './Service.css';
 
 const ReadMore = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top on component load
+      }, []);
+
     const { id } = useParams(); // get the card ID from URL
     const navigate = useNavigate();
 
