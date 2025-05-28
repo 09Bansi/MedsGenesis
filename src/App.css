@@ -1,40 +1,23 @@
-.navbar img{
-  width: 50px;
-}
 
-.navbar button{
-  color: gray;
-  background: white;
-  width: 70px;
-}
 
-.navbar ul{
-  width: 440px;
-}
-
-.text1 {
-  
-    
+.headline-text {
   position: absolute;
-  top: 4%; /* Adjust as needed */
+  top: clamp(100px, 18vh, 180px);
   left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 750px;
+  transform: translateX(-50%);
   color: white;
-  z-index: 2; /* Make sure text is above image */
-  text-align: center; /* Center align if needed */
-  width: 80%; /* Prevent text from being too wide */
+  text-align: center;
+  z-index: 2;
+  width: 90%;
 }
 
-
-.text2 {
-  position: absolute;
-  top: 5%; /* Adjust vertical position relative to .text1 */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 2; /* Make sure text is above image */
-  text-align: center; /* Center align if needed */
-   width: 80%; /* Prevent text from being too wide */
+.headline-text h2 {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+}
+.headline-text h2:last-child {
+  margin-bottom: 0;
 }
 
 .card-wrapper {
@@ -48,15 +31,17 @@
 }
 
 .card {
-  background-color: white; /* Explicitly set background */
-  border: 1px solid #eee;  /* Add a light border */
-  border-radius: 8px;     /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-  display: flex;          /* Use flexbox for better internal alignment */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center;    /* Center items horizontally */
+  background-color: white; 
+  border: 1px solid #eee;  
+  border-radius: 8px;     
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;          
+  flex-direction: column; 
+  align-items: center;    
   text-align: center;     /* Center text */
   
+  
+
 }
 
 .card img {
@@ -80,6 +65,20 @@
   text-align: center;
   border-radius: 30px;
   
+}
+.card button:hover {
+  background-color: #2a2a85;
+}
+@media (max-width: 950px) {
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 400px;
+  }
 }
 
 

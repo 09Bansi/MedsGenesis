@@ -15,17 +15,17 @@ import health from './health.png';
 
 const Content = () => {
     return (
-        <div className="Content" style={{ position: 'relative' }}>
+        <div className="background-container" style={{ position: 'relative', width:'100%', overflow:'hidden'}}>
             {/* Background Image on Right */}
-            <img src={first} alt="first.png" style={{ objectfit: 'cover', visibility: 'visible', width: '100%', height: '100%', marginTop: '45px' }} />
-            <div className="text" >
-                <h2 className="text1">Cutting-Edge AI-Powered RCM Solutions:</h2>
-                <h2 className="text2">Maximizing Revenue for Healthcare Providers</h2>
+            <img src={first} alt="first.png" style={{ objectfit: 'cover', visibility: 'visible', width: '100%', height: 'auto', marginTop: '45px', display:'block' }} />
+            <div className="headline-text" >
+                <h2 >Cutting-Edge AI-Powered RCM Solutions:</h2>
+                <h2 >Maximizing Revenue for Healthcare Providers</h2>
             </div>
 
             <div className='card-wrapper'>
                 <div className="card" style={{ width: '17rem' }}>
-                    <img src={Genesis} alt="Genesis.png" />
+                    <img src={Genesis} alt="Genesis.png" className="card-icon"/>
                     <div className="card-body">
                         <h5 className="card-title" style={{ textAlign: 'center' }}>The Genesis of</h5>
                         <p className="card-text" style={{ fontSize: '15px' }}>Pioneering Experts in Healthcare IT and Revenue Cycle Automation: Revolutionizing the Industry with Innovative Solutions</p>
@@ -33,7 +33,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="card" style={{ width: '17rem' }}>
-                    <img src={seamless} alt="seamless.png" />
+                    <img src={seamless} alt="seamless.png" className="card-icon"/>
                     <div className="card-body">
                         <h5 className="card-title" style={{ textAlign: 'center' }}>Seamless Patient</h5>
                         <p className="card-text" style={{ fontSize: '15px' }}>Comprehensive Insurance Verification and Prior Authorization Management</p>
@@ -41,7 +41,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="card" style={{ width: '17rem' }}>
-                    <img src={end} alt="end.png" />
+                    <img src={end} alt="end.png" className="card-icon"/>
                     <div className="card-body">
                         <h5 className="card-title" style={{ textAlign: 'center' }}>Streamlining Front-End </h5>
                         <p className="card-text" style={{ fontSize: '15px' }}>Elevating Back-End RCM Efficiency with Cutting-Edge Technologies</p>
